@@ -11,7 +11,6 @@
     <taggedValue xmi:id="_WR0x0J4GEeuhWYmzFCz-DA" tag="Is Use Sample Data" value="false"/>
     <taggedValue xmi:id="_89fxYJ4GEeuhWYmzFCz-DA" tag="PREVIEW_ROW_NUMBER" value="50"/>
     <context xmi:id="_wxZdZp4FEeuhWYmzFCz-DA">
-      <connection href="../../metadata/fileDelimited/test_data_0.1.item#_ycBDYJ3JEeuhWYmzFCz-DA"/>
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/test_data_0.1.item#_ycHxEp3JEeuhWYmzFCz-DA"/>
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/test_data_0.1.item#_ycHxF53JEeuhWYmzFCz-DA"/>
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/test_data_0.1.item#_ycHxGJ3JEeuhWYmzFCz-DA"/>

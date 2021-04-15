@@ -13,6 +13,7 @@
     <module>jobs/process/demo/onboardingdemojob_0.1</module>
     <module>jobs/joblets/bca_bi_0.1</module>
     <module>jobs/process/BCA_demo/bca_demp_0.1</module>
+    <module>jobs/process/BCA_demo/merge_data_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>

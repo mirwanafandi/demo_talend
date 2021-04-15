@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <dataquality.analysis:Analysis xmi:id="_wxZdYJ4FEeuhWYmzFCz-DA" name="analysis_data" creationDate="2021-04-15T23:15:14.997+0700" defaultContext="Default">
     <taggedValue xmi:id="_wxZdYZ4FEeuhWYmzFCz-DA" tag="Status" value="development"/>
     <taggedValue xmi:id="_wxZdYp4FEeuhWYmzFCz-DA" tag="Author" value="mohamad.i.afandi@trial33665.us.talend.com"/>
@@ -10,9 +10,40 @@
     <taggedValue xmi:id="_WRokkJ4GEeuhWYmzFCz-DA" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
     <taggedValue xmi:id="_WR0x0J4GEeuhWYmzFCz-DA" tag="Is Use Sample Data" value="false"/>
     <taggedValue xmi:id="_89fxYJ4GEeuhWYmzFCz-DA" tag="PREVIEW_ROW_NUMBER" value="50"/>
-    <context xmi:id="_wxZdZp4FEeuhWYmzFCz-DA"/>
+    <context xmi:id="_wxZdZp4FEeuhWYmzFCz-DA">
+      <connection href="../../metadata/fileDelimited/test_data_0.1.item#_ycBDYJ3JEeuhWYmzFCz-DA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/test_data_0.1.item#_ycHxEp3JEeuhWYmzFCz-DA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/test_data_0.1.item#_ycHxF53JEeuhWYmzFCz-DA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/test_data_0.1.item#_ycHxGJ3JEeuhWYmzFCz-DA"/>
+      <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/test_data_0.1.item#_ycHxGZ3JEeuhWYmzFCz-DA"/>
+    </context>
     <results xmi:id="_wxZdZ54FEeuhWYmzFCz-DA">
       <resultMetadata xmi:id="_wxZdaJ4FEeuhWYmzFCz-DA"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_fZedYJ4HEeuhWYmzFCz-DA">
+        <parameters xmi:id="_fZedYZ4HEeuhWYmzFCz-DA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/test_data_0.1.item#_ycHxEp3JEeuhWYmzFCz-DA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_fZedYp4HEeuhWYmzFCz-DA">
+        <parameters xmi:id="_fZedY54HEeuhWYmzFCz-DA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/test_data_0.1.item#_ycHxEp3JEeuhWYmzFCz-DA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_fZedZJ4HEeuhWYmzFCz-DA">
+        <parameters xmi:id="_fZedZZ4HEeuhWYmzFCz-DA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/test_data_0.1.item#_ycHxEp3JEeuhWYmzFCz-DA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:UniqueCountIndicator" xmi:id="_fZedZp4HEeuhWYmzFCz-DA">
+        <parameters xmi:id="_fZedZ54HEeuhWYmzFCz-DA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/test_data_0.1.item#_ycHxEp3JEeuhWYmzFCz-DA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_fZedaJ4HEeuhWYmzFCz-DA">
+        <parameters xmi:id="_fZedaZ4HEeuhWYmzFCz-DA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/test_data_0.1.item#_ycHxEp3JEeuhWYmzFCz-DA"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+      </indicators>
     </results>
     <parameters xmi:id="_wxZdaZ4FEeuhWYmzFCz-DA" dataFilter="_89gYcJ4GEeuhWYmzFCz-DA" analysisType="Multiple Column Analysis" executionLanguage="Java"/>
     <contextType xmi:id="_WRn9gJ4GEeuhWYmzFCz-DA" confirmationNeeded="false" name="Default"/>

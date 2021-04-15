@@ -10,9 +10,7 @@
     <taggedValue xmi:id="_WRokkJ4GEeuhWYmzFCz-DA" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
     <taggedValue xmi:id="_WR0x0J4GEeuhWYmzFCz-DA" tag="Is Use Sample Data" value="false"/>
     <taggedValue xmi:id="_89fxYJ4GEeuhWYmzFCz-DA" tag="PREVIEW_ROW_NUMBER" value="50"/>
-    <context xmi:id="_wxZdZp4FEeuhWYmzFCz-DA">
-      <connection href="../../metadata/fileDelimited/titanic_data_0.1.item#_zkCSMJ4HEeuhWYmzFCz-DA"/>
-    </context>
+    <context xmi:id="_wxZdZp4FEeuhWYmzFCz-DA"/>
     <results xmi:id="_wxZdZ54FEeuhWYmzFCz-DA">
       <resultMetadata xmi:id="_wxZdaJ4FEeuhWYmzFCz-DA"/>
     </results>
